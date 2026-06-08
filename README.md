@@ -1,17 +1,11 @@
 # HAKAMIQ
 
-I'm working on small tools for checking, organizing, and inspecting local game files.
+I build small Windows tools for checking, organizing, and managing local game-related files.
 
-One of the ideas I'm working on is a PS3 local content verifier. The tool is meant to help users check files they already have on their own device by comparing file size and checksums with a database they provide themselves.
+My main project is **Hakamiq CHD Tool**, a Windows x64 desktop app for CHD conversion, verification, archive intake, and extraction using MAME `chdman`.
 
-The idea is simple:
+- [Hakamiq CHD Tool](https://github.com/HAKAMIQ/HakamiqChdTool.App)
 
-- import a local database
-- scan local PS3 files or folders
-- calculate MD5, SHA1, and SHA256
-- compare the result with the imported database
-- show whether the file is verified, mismatched, unknown, or unsupported
+These tools are not downloaders and do not include games, ROMs, BIOS files, copyrighted disc images, decryption keys, firmware, Disc Keys, Redump databases, or download links.
 
-This project is not a downloader and does not include game files, licenses, keys, or download links.
-
-Users are responsible for their own files and databases.
+Users are responsible for their own files and legal use.
